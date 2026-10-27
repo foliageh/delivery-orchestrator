@@ -57,7 +57,7 @@ public class Order extends BaseEntity {
         COLLECTED,
         IN_DELIVERY,
         DELIVERED,
-        CANCELLED,
-        REFUNDED
+        REFUND_PROCESSING,
+        CANCELLED
     }
 }
